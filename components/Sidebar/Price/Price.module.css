@@ -1,0 +1,30 @@
+.price-title {
+  margin-top: 20px;
+}
+
+.ml {
+  margin-left: 20px;
+}
+
+.lot-number-filter-container {
+  margin: 10px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lot-number-filter-container input {
+  width: 30%;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.lotButton {
+  cursor: pointer;
+  background-color: #007FFF;
+  border: 1px solid #007FFF;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,93 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dialog{
+    padding: 60px;
+}
+.comm__offer--info{
+    border: 1px solid black;
+    padding: 20px;
+    margin:20px 0;
+}
+.table__button{
+    z-index: 1000;
+}
+.file-input-container {
+    margin-bottom: 20px;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.password-label {
+    margin-right: 10px;
+}
+
+.password-input {
+    width: 200px;
+}
+
+.input-file {
+    position: relative;
+    display: inline-block;
+}
+.input-file-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    text-align: center;
+    border-radius: 4px;
+    background-color: #007FFF;
+    line-height: 22px;
+    height: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    transition: background-color 0.2s;
+}
+.input-file-text {
+    padding: 0 10px;
+    line-height: 40px;
+    display: inline-block;
+}
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+/* Focus */
+.input-file input[type=file]:focus + .input-file-btn {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.input-file:hover .input-file-btn {
+    background-color: #0066b2;
+}
+.input-file:active .input-file-btn {
+    background-color: #2E703A;
+}
+
+.input-file input[type=file]:disabled + .input-file-btn {
+    background-color: #eee;
+}
+
+body{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
